@@ -1,6 +1,7 @@
 const Engine = Matter.Engine; //Universe
 const World = Matter.World;  //Earth
 const Bodies = Matter.Bodies;  //Physical Bodies
+const Render = Matter.Render; //optional physics engine viewer/renderer
 
 var myEngine, myWorld; //our engine and world objects for this file
 var ground, ball; //physical bodies
