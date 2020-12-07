@@ -17,6 +17,19 @@ function setup()
     var groundOptions={
         isStatic:true        
     }
+/* optional -- to  render/view the physics engine bodies
+    var render = Render.create({
+	  element: document.body,
+	  engine: myEngine,
+	  options: {
+	    width: 1200,
+	    height: 700,
+	    wireframes: false
+	  }
+	});
+
+	//Engine.run(myEngine);
+	Render.run(render); */
 
     //adding ground to the Physics Engine
     ground = Bodies.rectangle(400,480,800,20,groundOptions);
